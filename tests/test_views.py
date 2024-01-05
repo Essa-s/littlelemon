@@ -1,7 +1,7 @@
 # Inside test_views.py
 from django.test import TestCase
 from django.urls import reverse
-from restaurant.models import Menu  # Import your Menu model
+from LittleLemonAPI.models import Menu  # Import your Menu model
 
 class MenuViewTest(TestCase):
     def setUp(self):
