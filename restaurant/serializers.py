@@ -11,7 +11,7 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ['url', 'username', 'email', 'groups']
         
         
-class MenuSerializer (ModelSerializer):
+class MenuItemsSerializer (ModelSerializer):
     class Meta:
         model = Menu
         fields = '__all__'
